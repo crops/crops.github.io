@@ -1,0 +1,27 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: CROPS (CROssPlatformS)
+email: crops.github@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  CROPS is an open source, cross-platform development framework that
+  leverages Docker containers to provide an easily managed, extensible
+  environment which allows developers to build binaries for a variety
+  of architectures on Windows, Linux and Mac OS X hosts.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://crops.github.io" # the base hostname & protocol for your site
+github_username:  crops
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "package.json"
+  - "README.md"
