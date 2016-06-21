@@ -44,6 +44,8 @@
   <productCatalog
       href="https://crops.github.io/eclipse-crops/setups/org.yocto.products.setup#/"/>
   <projectCatalog
+      href="com.github.projects.setup#/"/>
+  <projectCatalog
       href="https://crops.github.io/eclipse-crops/setups/org.yocto.projects..setup#/"/>
   <projectCatalog
       href="redirectable.projects.setup#/"/>
