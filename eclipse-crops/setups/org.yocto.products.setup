@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup:ProductCatalog
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
+    name="org.yocto.products.setup"
+    label="&lt;Yocto Project Eclipse Products>">
+  <setupTask
+      xsi:type="setup:InstallationTask"
+      id="installation"/>
+  <product href="https://raw.githubusercontent.com/crops/eclipse-crops/eclipse-crops-neon/releng/CROPS-dev-env.setup#/"/>
+  <description>A container catalog for Yocto Project Eclipse products</description>
+</setup:ProductCatalog>
